@@ -6,9 +6,6 @@
 # def calculate_product(lst):
 #     if not lst:
 #         return 0
-#     from functools import reduce
-#     product = reduce(lambda x, y: x * y, lst)
-#     return product
 # my_list = [2, 3, 5, 7]
 # result_product = calculate_product(my_list)
 # print("Product of the list {}: {}".format(my_list, result_product))
@@ -19,8 +16,6 @@
 # Отриманий результат повертається із функції.
 
 # def find_minimum(lst):
-#     if not lst:
-#         return None
 #     return min(lst)
 # my_list = [4, 1, -3, 3, 0]
 # result_minimum = find_minimum(my_list)
