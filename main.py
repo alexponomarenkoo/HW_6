@@ -3,12 +3,12 @@
 # Список передається як параметр.
 # Отриманий результат повертається із функції.
 
-# def calculate_product(lst):
-#     if not lst:
-#         return 0
-# my_list = [2, 3, 5, 7]
-# result_product = calculate_product(my_list)
-# print("Product of the list {}: {}".format(my_list, result_product))
+# def bigmult(*my_numbers):
+#        n = 1
+#        for i in my_numbers:
+#            n *=i
+#        return n
+# print(bigmult(6, 2, 10))
 
 ####Task-2
 # Напишіть функцію для знаходження мінімуму у списку цілих.
